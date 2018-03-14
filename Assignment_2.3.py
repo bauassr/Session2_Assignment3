@@ -17,7 +17,8 @@ print(Reverse_string)
 
 #Revese String using built in list function#
 Word_list = list(Word)
-print("Reverse Word using buit-in function: ")
+print("Reverse Word using buit-in print function: ")
 Word_list.reverse()
 print("".join(S for S in Word_list))
-
+print("Reverse Word using buit-in string functions: ")
+print(Word[::-1])
